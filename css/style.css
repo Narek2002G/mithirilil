@@ -1948,6 +1948,13 @@ body.--js-lock__body--burgerMenu .burger__icon .icon__elm::after, body.--js-lock
   body.--js-lock__body--burgerMenu .burger-nav__footer .hero-screen_socials {
     height: 200rem;
   }
+  .jobs__list,
+  .jobs__stage__title{
+    display: none;
+  }
+  .order__link {
+    left: 0;
+  }
 }
 @media (max-height: 760px) {
   .burger-menu {
@@ -9554,6 +9561,7 @@ body.--js-blok {
   font-size: 14px;
   line-height: 28px;
   color: #828282;
+  transition: all 0.5s;
 }
 
 .nft__paragraph {
@@ -9669,8 +9677,8 @@ color: #BDBDBD;
 
 .order__link {
   position: absolute;
-  right: 35px;
-  top: 900px;
+  left: 0;
+  top: 50px;
   transition: all 0.4s;
 }
 
